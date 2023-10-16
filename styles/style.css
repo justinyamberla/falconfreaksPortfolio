@@ -383,6 +383,7 @@ span {
     justify-content: center;
     align-items: center;
     padding: .8rem;
+    margin: 10px 10px 10px 10px;
     background: var(--main-color);
     border-radius: .8rem;
     transition: .5s ease;
@@ -500,6 +501,10 @@ span {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 450px) {
@@ -509,6 +514,10 @@ span {
 
     .contact form .input-box input {
         width: 100%;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
     }
 }
 
