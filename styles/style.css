@@ -85,13 +85,13 @@ section {
     align-items: center;
 }
 
-.home-img img {
-    width: 35vw;
-    border-radius: 20%;
+.home-content {
+    padding-right: 50px;
 }
 
 .home-img img {
-    width: 35vw;
+    width: 40vw;
+    border-radius: 20%;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -205,7 +205,6 @@ span {
 
 .services h2 {
     margin-bottom: 5rem;
-
 }
 
 .services-container {
@@ -471,7 +470,7 @@ span {
     }
 
     .home-img img {
-        width: 70vw;
+        width: 60vw;
         margin-top: 4rem;
     }
 
@@ -479,7 +478,7 @@ span {
         flex-direction: column-reverse;
     }
 
-    .about-img {
+    .about-img img {
         width: 70vw;
         margin-top: 4rem;
     }
