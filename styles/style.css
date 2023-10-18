@@ -16,6 +16,7 @@
     --second-bg-color: #323946;
     --text-color: #fff;
     --main-color: #0ef;
+    --error-color: #fc1d1d;
 }
 
 html {
@@ -30,6 +31,11 @@ body {
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
+}
+
+.error {
+    border-bottom: 3px solid #fc1d1d;
+    color: var(--error-color);
 }
 
 .header {
