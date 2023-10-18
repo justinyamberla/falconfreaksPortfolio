@@ -522,6 +522,11 @@ span {
         font-size: 50%;
     }
 
+    .home-img img {
+        width: 70vw;
+        height: 45vh;
+    }
+
     .contact form .input-box input {
         width: 100%;
     }
