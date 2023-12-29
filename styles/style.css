@@ -92,7 +92,9 @@ section {
 }
 
 .home-content {
-    padding-right: 50px;
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 50%;
 }
 
 .home-img img {
@@ -190,6 +192,7 @@ span {
     width: 340px;
     height: 450px;
     border-radius: 10%;
+    margin-right: 50px;
 }
 
 .heading {
