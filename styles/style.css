@@ -87,14 +87,14 @@ section {
 
 .home {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .home-content {
     padding-right: 10px;
     margin-right: 10px;
-    width: 50%;
+
 }
 
 .home-img img {
@@ -182,7 +182,7 @@ span {
 
 .about {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 2rem;
     background: var(--second-bg-color);
@@ -192,7 +192,6 @@ span {
     width: 340px;
     height: 450px;
     border-radius: 10%;
-    margin-right: 50px;
 }
 
 .heading {
