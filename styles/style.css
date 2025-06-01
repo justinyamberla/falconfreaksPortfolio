@@ -15,7 +15,7 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: #00f5c8;
     --error-color: #fc1d1d;
 }
 
@@ -52,7 +52,7 @@ section {
 }
 
 .header.sticky {
-    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+    border-bottom: .1rem solid rgba(0, 245, 171, 0.13);
 }
 
 .logo {
@@ -168,7 +168,7 @@ span {
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+
     font-size: 1.6rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
@@ -177,7 +177,7 @@ span {
 }
 
 .btn:hover {
-    box-shadow: none;
+    box-shadow: 0 0 1rem var(--main-color);
 }
 
 .about {
